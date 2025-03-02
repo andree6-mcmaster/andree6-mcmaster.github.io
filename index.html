@@ -12,15 +12,75 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="description" content="...">
     <style>
-    
+     body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container1 {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(187, 199, 19, 0.733);
+        }
+        .container2 {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(187, 199, 19, 0.733);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #535050;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+        }
+        p2 {
+            color: #555;
+            font-size: small;
+            text-align: center;
+        }
+        h3 {
+            font-size: 14px;
+            text-align: left;
+        }
+        
     </style>
-      <img src="images/IMG_1902.jpg" alt="image cannot be accessed" class="logo"/>
  
   </head>
 
   <body>
-   
+    <div class="container1">
+        <img src="images/IMG_1902.jpg" alt="Profile Picture">
+        <h1>Ethan Andrews</h1>
+        <p2>Hamilton, Ontario | (905) 914 4506 | andree6@mcmaster.ca | www.linkedin.com\in\eeandrews1</p2>
+        <p style="color: rgb(47, 96, 230); text-align: center;">_________________________________________________________________</p>
+    </div>
+    <div class="container2">
+        <h2 style="text-align: left; text-decoration: underline;">Education</h2>
+        <h3>Bachelor of Technology, Automation Engineering Technology</h3>
 
+    </div>
 
   </body>
 </html>
