@@ -19,31 +19,47 @@
             background-color: #f4f4f4;
             text-align: center;
         }
-        .container1 {
+        .title {
             max-width: 600px;
             margin: 50px auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(187, 199, 19, 0.733);
+            box-shadow: 0 0 10px rgba(71, 51, 51, 0.733);
         }
-        .container2 {
+        .education {
             max-width: 600px;
             margin: 50px auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(187, 199, 19, 0.733);
+            box-shadow: 0 0 10px rgba(71, 51, 51, 0.733);
         }
-        img {
+        .experience {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(71, 51, 51, 0.733);
+        }
+        .me {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             object-fit: cover;
+            float: left;
+        }
+        .logo{
+            width: 100px;
+            height: 60 px;
+            object-fit: cover;
+            float: left;
         }
         h1 {
             color: #333;
-            text-align: center;
+            margin-top: 50px;
+            font-style: italic;
         }
         p {
             color: #535050;
@@ -64,23 +80,78 @@
             font-size: 14px;
             text-align: left;
         }
+        .job {
+            font-size: 14px;
+            text-align: left;
+            font-style: italic;
+        }
+        
         
     </style>
  
   </head>
 
   <body>
-    <div class="container1">
-        <img src="images/IMG_1902.jpg" alt="Profile Picture">
-        <h1>Ethan Andrews</h1>
-        <p2>Hamilton, Ontario | (905) 914 4506 | andree6@mcmaster.ca | www.linkedin.com\in\eeandrews1</p2>
-        <p style="color: rgb(47, 96, 230); text-align: center;">_________________________________________________________________</p>
+    <div class="title">
+  
+        <h1>Ethan Andrews  <img class = "me" src="images/IMG_1902.jpg" alt="Profile Picture"> </h1>
+        <p2>Hamilton, Ontario | (905) 914 4506 | andree6@mcmaster.ca | <a href="www.linkedin.com/in/eeandrews1">www.linkedin.com/in/eeandrews1</a></p2>
+        <p style="color: rgb(99, 85, 84); text-align: center;">_________________________________________________________________</p>
     </div>
-    <div class="container2">
+    <div class="education">
         <h2 style="text-align: left; text-decoration: underline;">Education</h2>
-        <h3>Bachelor of Technology, Automation Engineering Technology</h3>
-
+        <br>
+        <img class="logo" src="images/McMaster_University_logo.svg.png" alt="McMaster Univerity Logo">
+        <h3 style="margin-left: 125px;">Bachelor of Technology, Automation Engineering Technology (Current)</h3>
+        <p style="font-size: smaller; margin-left: 300px;">McMaster University, Hamilton ON</p>
+        <p style="color: rgb(99, 85, 84); text-align: center;">_________________________________________________________________</p>
+        <br>
+        <img class="logo" src="images/Brooklin_Bears_Logo.png" alt="Brooklin Bears Logo">
+        <h3 style="margin-left: 125px;">Brooklin High School (September 2016 - June 2020)</h3>
+        <p style="font-size: smaller; margin-left: 200px;">Brooklin, ON</p>
     </div>
-
+    <div class="experience">
+        <h2 style="text-align: left; text-decoration: underline;">Experience</h2>
+        <br>
+        <img class="logo" src="images/veolia_logo.jpg" alt="Veolia Logo">
+        <h3 class = "job" style="margin-left: 125px;">Veolia Water Technologies & Solutions - E&IC and Project Engineering Intern</h3>
+        <p style="font-size: smaller;">Oakville, ON. (May 2023 - August 2024)</p>
+        <br>
+        <ul>
+            <li style="font-size: smaller; text-align: left;">Reviewed engineering drawings, P&IDs, and electrical schematics to ensure compliance with project requirements.</li>
+            <li style="font-size: smaller; text-align: left;">Coordinated with cross-functional teams to support project execution, documentation, and inspections.</li>
+            <li style="font-size: smaller; text-align: left;">Served as the Lead Electrical Engineer on an expansion project for an existing system, overseeing the design, implementation, and
+                testing of electrical and instrumentation systems. </li>
+        </ul>
+        <p style="color: rgb(99, 85, 84); text-align: center;">_________________________________________________________________</p>
+        <br>
+        <img class="logo" src="images/timhortons_logo.png" alt="Tim Hortons Logo">
+        <h3 class = "job" style="margin-left: 250px;">Tim Hortons - Team Member / Trainer</h3>
+        <p style="font-size: smaller; margin-left: 120px;">Whitby, ON. (August 2017 - August 2021)</p>
+        <br>
+        <ul>
+            <li style="font-size: smaller; text-align: left;">Trusted by managers and supervisors to conduct difficult tasks independently, and in groups, as well as run store with little assistance. </li>
+            <li style="font-size: smaller; text-align: left;">Location recognized as “Second most efficient in Canada” in 2019 (Platinum Award).</li>
+        </ul>
+        <p style="color: rgb(99, 85, 84); text-align: center;">_________________________________________________________________</p>
+        <br>
+        <img class="logo" src="images/deercreek_logo.png" alt="Deer Creek Logo">
+        <h3 class = "job" style="margin-left: 200px;">Deer Creek Golf and Banquet - Course Maintenance</h3>
+        <p style="font-size: smaller; margin-left: 120px;">Ajax, ON. (May 2022 - September 2022)</p>
+        <br>
+        <ul>
+            <li style="font-size: smaller; text-align: left;">Responsibility of maintaining courses pristine conditions by operating various machinery including mowers, tractors, aerators, as well as various handheld tools </li>
+            <li style="font-size: smaller; text-align: left;">Entrusted out of over a dozen co-workers with the most difficult project over the summer, aerating all greens, tees, and approaches on a weekly basis.</li>
+        </ul>
+        <p style="color: rgb(99, 85, 84); text-align: center;">_________________________________________________________________</p>
+        <br>
+        <img class="logo" src="images/redcross_logo.png" alt="Red Cross Logo">
+        <h3 class = "job" style="margin-left: 200px;">Canadian Red Cross - Volunteer Lifesaving Instructor</h3>
+        <p style="font-size: smaller; margin-left: 120px;">Brooklin, ON. (June 2018 - August 2018)</p>
+        <br>
+        <ul>
+            <li style="font-size: smaller; text-align: left;">Throughout the summer of 2018, I volunteered as a lifesaving instructor for the Canadian Red Cross organization for a private backyard swimming instructor, where I assisted many children in increasing their swimming ability.</li>
+        </ul>
+    </div>
   </body>
 </html>
